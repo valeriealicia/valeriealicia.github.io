@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Treasure Hunt Game</title>
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/8/81/Rubix_cube.jpg">
+        <link rel="stylesheet" href="gameboard.css">
+        <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+        <h1 id="top">Treasure Hunt Game</h1>
+        <br />
+        <div class="treasurechest">
+            <img src="https://storage.needpix.com/rsynced_images/treasure-chest-152499_1280.png" alt="treasure chest" height="200px">
+        </div>
+            <p class = "yar">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
+        </center>
+<div class = "rules">
+            <h2>Rules:</h2>
+                <ol>
+                    <li>Find the 🏆</li>
+                    <li>Lose if you find the 💣</li>
+                    <li>7 chances to find the 🏆</li>
+                    <li>Try Again😜</li>
+                </ol>
+</div>
+            <table border="2px solid black" height="400px" width="400px" align="center" text-align="center">
+                <tr>
+                    <td id=0 onclick="treasure(0)"><p>⚓️</p></td>
+                    <td id=1 onclick="treasure(1)"><p>⚓️</p></td>
+                    <td id=2 onclick="treasure(2)"><p>⚓️</p></td>
+                    <td id=3 onclick="treasure(3)"><p>⚓️</p></td>
+                    <td id=4 onclick="treasure(4)"><p>⚓️</p></td>
+                </tr>
+                <tr>
+                    <td id=5 onclick="treasure(5)"><p>⚓️</p></td>
+                    <td id=6 onclick="treasure(6)"><p>⚓️</p></td>
+                    <td id=7 onclick="treasure(7)"><p>⚓️</p></td>
+                    <td id=8 onclick="treasure(8)"><p>⚓️</p></td>
+                    <td id=9 onclick="treasure(9)"><p>⚓️</p></td>
+                </tr>
+                <tr>
+                    <td id=10 onclick="treasure(10)"><p>⚓️</p></td>
+                    <td id=11 onclick="treasure(11)"><p>⚓️</p></td>
+                    <td id=12 onclick="treasure(12)"><p>⚓️</p></td>
+                    <td id=13 onclick="treasure(13)"><p>⚓️</p></td>
+                    <td id=14 onclick="treasure(14)"><p>⚓️</p></td>
+                </tr>
+            </table>
+
+    <br>
+    <br>
+    <center>
+        <button type="button" onclick="location.reload()">Restart Game</button>
+        <div id="counter">0</div>
+        <button id="resetCounter">Reset Counter</button>
+    <br>
+    <br>
+
+        <footer>&copy Valerie | Adam | Drew 2019
+    <br>
+    <div class= "link">
+            <a href="https://www.imdb.com/title/tt0368891/" target="_blank">Next Clue</a>
+    <br>
+            <a href="#top">Back to Top</a>
+    </div>
+
+    </footer>
+        <script type="text/javascript" src="gameboard.js">
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+.treasurechest {
+    animation: bounceIn 4s infinite;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+body {
+    background-image: url(https://www.maxpixel.net/static/photo/1x/Pirates-Ship-Island-Treasure-2899637.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1 {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 75px;
+    text-shadow: 10px 10px black;
+
+}
+.yar {
+    padding-top: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 20px;
+
+}
+
+table {
+    text-align: center;
+    font-size: 50px;
+    border-color: gold;
+}
+td {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+td p{
+    animation: shake 1s cubic-bezier(.36,.07,.19,.97) infinite;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.rules {
+    width: max-content;
+    border: 4px inset white;
+    border-radius: 10px;
+    margin-left:10%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ol {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+button {
+    height: 30px;
+    border-radius: 10px;
+    font-style: oblique;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+ .link {
+text-align:right;
+    }
