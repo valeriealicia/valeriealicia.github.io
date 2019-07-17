@@ -75,14 +75,14 @@ td p{
     border-radius: 10px;
     align-content: center;
     margin-left: 32%;
-    list-style-type: square; 
+     
 }
 
 }
 
 ul {
-    font-size: 20px;
-      
+    list-style-type: square;
+    font-size: 20px;      
 }
 
 button {
