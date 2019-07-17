@@ -73,12 +73,7 @@ td p{
     width: max-content;
     border: 4px inset white;
     border-radius: 10px;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-     -webkit-align-content: center;
-     align-content: center;
+    align-content: center;
 }
 
 }
