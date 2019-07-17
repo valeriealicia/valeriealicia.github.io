@@ -80,6 +80,7 @@ td p{
 }
 ul {
     font-size: 20px;
+    list-style-type: circle;
     
 }
 
