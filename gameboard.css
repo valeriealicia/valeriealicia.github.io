@@ -25,7 +25,7 @@ body {
 h1 {
     font-family: 'Mountains of Christmas', cursive;
     font-size: 75px;
-    text-shadow: 10px 10px black;
+    text-shadow: 10px 10px gold;
 
 }
 .yar {
@@ -74,13 +74,13 @@ td p{
     border: 4px inset white;
     border-radius: 10px;
     align-content: center;
-    margin-left: 50%;
+    margin-left: 25%;
 }
 
 }
 ol {
     font-size: 20px;
-    font-style: oblique;
+    
 }
 
 button {
