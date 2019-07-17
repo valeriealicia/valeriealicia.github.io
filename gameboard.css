@@ -74,14 +74,15 @@ td p{
     border: 4px inset white;
     border-radius: 10px;
     align-content: center;
-    margin-left: 33%;
+    margin-left: 32%;
+    list-style-type: circle; 
 }
 
 }
+
 ul {
     font-size: 20px;
-    list-style-type: circle;
-    
+    list-style-type: circle;   
 }
 
 button {
